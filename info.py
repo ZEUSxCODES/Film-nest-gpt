@@ -4,7 +4,7 @@ from os import environ
 API_ID = environ.get('API_ID','')
 API_HASH = environ.get('API_HASH','')
 BOT_TOKEN = environ.get('BOT_TOKEN','')
-BOT_NAME = environ.get('BOT_NAME','BISAL CHAT BOT')
+BOT_NAME = environ.get('BOT_NAME','FilmNest CHAT BOT')
 ADMIN = int(environ.get('ADMIN',''))
 CHAT_GROUP = int(environ.get('CHAT_GROUP','-1001812797837'))
 ADMIN_NAME = environ.get('ADMIN_NAME','Bisal')
