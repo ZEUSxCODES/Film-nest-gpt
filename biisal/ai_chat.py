@@ -21,7 +21,7 @@ async def startcmd(client, message):
         )
     await message.reply_photo(
         photo="https://telegra.ph/file/6efe0fd4f1cbecb1a301d.png",
-        caption=f"<b>Hello {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Film_Nest>FilmNest</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a></b>",
+        caption=f"<b>Hello {userMention},\n\nIᴍ Hᴇʀᴇ Tᴏ Rᴇᴅᴜᴄᴇ Yᴏᴜʀ Pʀᴏʙʟᴇᴍs..\nYᴏᴜ Cᴀɴ Usᴇ Mᴇ As ʏᴏᴜʀ Pʀɪᴠᴀᴛᴇ Assɪsᴛᴀɴᴛ..\nAsᴋ Mᴇ Aɴʏᴛʜɪɴɢ...Dɪʀᴇᴄᴛʟʏ..\n\nMʏ Cʀᴇᴀᴛᴏʀ : <a href=https://t.me/Film_Nest>FilmNest</a>\nMʏ Lᴏᴠᴇʀ : <a href=tg://settings/>Tʜɪs Pᴇʀsᴏɴ</a>Extra command--> /scan_ph</b>",
     )
     return
 
@@ -35,12 +35,12 @@ async def ai_res(message ,query):
             response_json = res.json()  
             api_response = response_json.get('response')  
             if len(query) <= 280:
-                await message.reply_text(text=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{query}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
+                await message.reply_text(text=f"<b>le bhaiiiiiii.... {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{query}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
                         reply_markup=InlineKeyboardMarkup(
                             [
                                 [
                                     InlineKeyboardButton(
-                                        "sᴛᴀʀᴛ ᴍᴇ 🚩", url=f"https://t.me/bisal_gpt_bot?start=z"
+                                        "Movie Bot 🎥", url=f"https://t.me/FilmNest pvt_bot?start=z"
                                     )
                                 ]
                             ]
@@ -49,12 +49,12 @@ async def ai_res(message ,query):
                     )
             else:
                 cut_query_str = query[:77]
-                await message.reply_text(text=f"<b>ᴊᴀɪ sʜʀᴇᴇ ᴋʀɪsʜɴᴀ {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{cut_query_str}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
+                await message.reply_text(text=f"<b>le bhaiiiiii ... {userMention}\nʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{cut_query_str}</code>\n\n{BOT_NAME} :\n{api_response}</b>",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "sᴛᴀʀᴛ ᴍᴇ 🚩", url=f"https://t.me/bisal_gpt_bot?start=z"
+                                    "Movie Bot 🎥", url=f"https://t.me/filmnestpvt_bot?start=z"
                                 )
                             ]
                         ]
